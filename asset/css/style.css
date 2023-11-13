@@ -57,26 +57,26 @@
 .logo{
     display: inline-flex;
     align-items: center;
-    margin-left:15px;
+    margin-left:10px;
 }
 .logo img{
-    width: 55px;
-    height: 55px;
+    width: 43px;
+    height: 43px;
 }
  /* Logo Heading */
 .logo h3{
-    font-size: 28px;
+    font-size: 21px;
     font-weight: 400;
     margin-left: 4px;
 }              
 /* Sign In */
 .sign{
-    margin-right: 39px;
+    margin-right: 20px;
 }
 .sign  a{
     text-decoration: none;
     color: #fff;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 500
 }
 .sign  a:hover{
@@ -88,40 +88,40 @@
     height: 90vh;
     text-align: center;
     position: relative;
-    top: 90px;
+    top: 50px;
 }
 .main .mainhead{
     padding-top: 30px;
-    font-size: 55px;
+    font-size: 42px;
     font-weight: 300;
     color: #fff;
 }
 .mainhead2{
     color: #fff;
-    font-size: 1.65rem;
+    font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .btn-link{
-    padding: 25px 29px;
+    padding: 16px 18px;
     background: #ff8000;
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
 }
 #hidebtn{
-    padding: 20px 29px;
+    padding: 16px 18px;
     background: #ff8000;
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 10px;
     display: none;
 }
@@ -135,25 +135,25 @@
     position: absolute;
 }
 .sideimage1{
-    top: 240px;
-    left: -160px;
+    top: 179px;
+    left: -130px;
 }
 .sideimag2{
-    top: 420px;
-    left: -100px;
+    top: 300px;
+    left: -65px;
 }
 .sideimage3{
-    top: 600px;
-    left: -90px;
+    top: 450px;
+    left: -80px;
 }
 .sideimage4{
-    top: 490px;
-    left: 270px;
+    top: 360px;
+    left: 200px;
 
 }
 .sideimage5{
     right:-120px ;
-    top: 340px;
+    top: 240px;
 }
 .sideimage6{
     right: 255px;
