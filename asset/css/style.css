@@ -156,10 +156,36 @@
     top: 240px;
 }
 .sideimage6{
-    right: 255px;
-    top: 430px;
+    right: 190px;
+    top: 320px;
 }
 .sideimage7{
-    right: -170px;
-    bottom: -150px;
+    right: -150px;
+    bottom: -130px;
+}
+.down{
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    background-color: #ff8000;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down a {
+    margin-top: 5px;
+}
+.down a img{
+    animation: jump 2s linear infinite;
+}
+@keyframes jump {
+    0%{
+        padding-top: 0px;
+    }
+    100%{
+        padding-top: 8px;
+    }
+   
 }
