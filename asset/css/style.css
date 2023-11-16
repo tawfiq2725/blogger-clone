@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
@@ -11,35 +12,8 @@
     height:110vh;
     position: relative;
     overflow: hidden;
-    /* animation: blinking 7s infinite alternate; */
 }
-@keyframes blinking {
-    0%{
-        background-color: #bc382e;
-        
 
-    }
-    20%{
-        background-color: #4583aa;
-        
-
-    }
-    40%{
-        background-color:#bc382e;
-       
-
-    }
-    80%{
-        background-color: #388d80;
-        
-
-    }
-    100%{
-        background-color: #4583aa;
-       
-    }
-    
-}
 /* Header */
 .header{
     width: 100%;
@@ -98,7 +72,7 @@
 }
 .mainhead2{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     padding-top: 20px;
     margin-bottom: 50px;
@@ -130,62 +104,107 @@
     bottom: 0;
     left: 24%;
     z-index: 30;
+    transition: 0.4s;
+    animation: translate 2s linear;
+}
+@keyframes translate {
+    0%{
+        transform: translateY(190px);
+    }
+  
+    100%{
+        transform: translateY(0px);
+    }
+    
 }
 .sideimage1, .sideimag2, .sideimage3 ,.sideimage4,.sideimage5,.sideimage6,.sideimage7{
+    animation: translate 2s linear;
     position: absolute;
 }
 .sideimage1{
     top: 179px;
     left: -130px;
 }
+.sideimage1 img{
+    width:290px;
+    height:290px;
+
+}
 .sideimag2{
     top: 300px;
     left: -65px;
 }
+.sideimag2 img{
+    width:220px;
+    height:290px;
+}
+
 .sideimage3{
     top: 450px;
     left: -80px;
+   
+}
+.sideimage3 img{
+    width:280px;
+    height:320px;
 }
 .sideimage4{
     top: 360px;
     left: 200px;
+    width:70px;
+    height:90px;
 
+}
+.sideimage4 img{
+    width:70px;
+    height:90px;
 }
 .sideimage5{
     right:-120px ;
     top: 240px;
 }
+.sideimage5 img{
+    width:340px;
+    height:240px;
+}
 .sideimage6{
     right: 190px;
     top: 320px;
+}
+.sideimage6 img{
+    width:120px ;
+    height: 180px;
 }
 .sideimage7{
     right: -150px;
     bottom: -130px;
 }
+.sideimage7 img{
+    width: 330px;
+    height:330px;
+}
 .down{
+    width: 60px;
+    height: 60px;
     position: absolute;
     right: 70px;
     bottom: 20px;
     background-color: #ff8000;
-    padding: 20px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.down a {
-    margin-top: 5px;
-}
+
 .down a img{
-    animation: jump 2s linear infinite;
+    animation: jump 1s linear infinite;
 }
 @keyframes jump {
     0%{
-        padding-top: 0px;
+      transform: translateY(-30%);
     }
     100%{
-        padding-top: 8px;
+        transform: translateY(0%);
     }
    
 }
