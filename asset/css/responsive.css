@@ -1,0 +1,133 @@
+@media screen and (max-width:599px){
+  
+    .sideimage1, .sideimag2, .sideimage3 ,.sideimage4,.sideimage5,.sideimage6,.sideimage7{
+        animation: translate 2s linear;
+        position: absolute;
+    }
+    .sideimage1{
+        width: 10px;
+        height: 10px;
+    }
+  
+    .mainimage{
+        display: none;    
+    }
+    .main .mainhead{
+        padding-top: 50px;
+        font-size: 25px;
+        font-weight: 300;
+        color: #fff;
+    }
+    .main{
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+        position: relative;
+        top: 70px;
+    }
+    .mainhead2{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    .index{
+        background-color: #bc382e;
+        width: 100%;
+        height:100vh;
+        position: relative;
+        overflow: hidden;
+    }
+    .sideimage1{
+        top: 469px;
+        left: -100px;
+    }
+    .sideimage1 img{
+        width:250px;
+        height:250px;
+    
+    }
+    .sideimag2{
+        top: 320px;
+        left: -140px;
+    }
+    .sideimag2 img{
+        width:250px;
+        height:330px;
+    }
+    
+    .sideimage3{
+        top: 450px;
+        left: -80px;
+       display: none;
+    }
+    .sideimage3 img{
+        width:280px;
+        height:320px;
+        display: none;
+    }
+    .sideimage4{
+        top: 360px;
+        left: 200px;
+        width:70px;
+        height:90px;
+        display: none;
+    }
+    .sideimage4 img{
+        width:70px;
+        height:90px;
+        display: none;
+    }
+    .sideimage5{
+        right:-120px ;
+        top: 240px;
+        display: none;
+    }
+    .sideimage5 img{
+        width:340px;
+        height:240px;
+        display: none;
+    }
+    .sideimage6{
+        right: 60px;
+        top: 390px;
+    }
+    .sideimage6 img{
+        width:110px ;
+        height: 160px;
+    }
+    .sideimage7{
+        right: -200px;
+        bottom: -100px;
+    }
+    .sideimage7 img{
+        width: 330px;
+        height:330px;
+    }
+    .down{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 200px;
+        bottom: 20px;
+        background-color: #ff8000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+@media (min-width:600px) and (max-width:1300px) {
+  
+  
+  
+    .mainimage{
+        position: absolute;
+        bottom: 0;
+        left: 24%;
+        z-index: 30;
+    }
+}
